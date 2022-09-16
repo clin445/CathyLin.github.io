@@ -1,0 +1,273 @@
+.branding{
+    font-size:17px;
+}
+
+.sidebar{
+    width: 120px;
+    background-color: #bc9d90;
+}
+
+.fa{
+    color: antiquewhite;
+}
+
+.sidebar hr{
+    margin: 0;
+}
+
+.stage{
+    margin-left: 120px;
+}
+
+
+.showcase{
+    background-color: bisque;
+    height: 700px;
+}
+
+.showcase h1{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgb(107, 73, 76);
+}
+
+.showcase hr{
+    border-width: 3px;
+    width: 100px;
+    border-color: #b57777;
+    margin: auto;
+}
+
+.showcase p{
+    font-size: 16px;
+    padding-bottom: 20px;
+    color: rgb(107, 73, 76);
+}
+
+
+.section{
+    padding: 40px 0;
+    color: #b57777;
+    background-color: #ebd0d0;
+}
+
+
+.section .fa{
+    font-size: 40px;
+}
+
+.bio{
+    margin-left: 120px;
+}
+
+.self-img{
+    width: 25%;
+    float: left;
+    border-style: solid;
+    border-color: rgb(107, 73, 76);
+    margin: 15px 15px 15px 15px;
+}
+
+.self-img img{
+    border-style: solid;
+    border-color: rgb(107, 73, 76);
+}
+
+
+.skill{
+    background-color: #ebd0d0;
+    height: 550px;
+}
+
+.skill h1{
+    margin-bottom: 0;
+    color: #b57777;
+}
+
+.skill hr{
+    border-width: 3px;
+    width: 400px;
+    margin-top: 0;
+    border-color: antiquewhite;
+}
+
+* {box-sizing:border-box}
+
+.boxes img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.containers {
+  width: 80%;
+  background-color: #ebd0d0; 
+  border-style: solid;
+  border-width: 2px;
+  border-color: antiquewhite;
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 60%; background-color: #b9847d;} /* Green */
+.css {width: 80%; background-color: rgb(180, 122, 125);} /* Blue */
+.js {width: 40%; background-color: #dea5a5;} /* Red */
+.php {width: 70%; background-color: #c49281;} /* Dark Grey */
+
+.container-message{
+    margin-left: 120px;
+    height: 800px;
+}
+
+.container-message hr{
+    width: 1000px;
+    border-width: 5px;
+    color: bisque;
+}
+
+.resume-showcase{
+    margin-left: 120px;
+    background-color: bisque;
+}
+
+.resume-showcase button{
+    margin-bottom: 50px;
+}
+
+.section-contact{
+    height: 2000px;
+    background-color: bisque;
+    margin-left: 120px;
+}
+
+
+.section-contact a{
+    float: left;
+}
+
+.section-contact h1{
+    color: rgb(197, 109, 131);
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.section-contact p{
+    color: rgb(122, 54, 66);
+    font-size: 20px;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.section-contact hr{
+    border-width: 3px;
+    border-color: rgb(150, 80, 78);
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.contact-card{
+    border-style: dashed;
+    height: 400px;
+    width: 300px;
+    margin: 40px 50px 50px 50px
+}
+
+.contact-card p{
+    position: absolute;
+}
+
+.contact-card i{
+    vertical-align: text-top;
+    margin-left: 135px;
+}
+
+.contact-card img{
+    vertical-align: baseline;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+.medias{
+    font-size: 30px;
+    padding: 0;
+    color: rgb(160, 109, 100);
+}
+
+.caption{
+    border-style: solid;
+    opacity: 0.5;
+}
+
+.caption:hover{
+    opacity: 1;
+}
+
+.mySlides{
+    display: none;
+}
+
+
+.current-projects{
+    margin-left: 120px;
+    background-color: bisque;
+    height: 500px;
+}
+
+.current-projects hr{
+    border-width: 3px;
+    border-color: rgb(150, 80, 78);
+    width: 700px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.current-projects h2{
+    margin-bottom: 0px;
+}
+
+.current-projects p{
+    margin-top: 10px;
+}
+
+.completed-works{
+    height: 800px;
+    background-color: #f7cccc;
+    margin-left: 120px;
+}
+
+.completed-works hr{
+    border-width: 3px;
+    border-color: rgb(150, 80, 78);
+    width: 700px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.completed-works h2{
+    margin-bottom: 0px;
+}
+
+.completed-works p{
+    margin-top: 10px;
+}
+
+
+
+@media  only screen and (max-width:600px){
+    body{
+
+    }
+
+    .showcase{
+
+    }
+
+}
