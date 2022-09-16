@@ -61,6 +61,33 @@
     margin-left: 120px;
 }
 
+.bio-body{
+    background-color: bisque;
+    color: rgb(107, 73, 76);
+}
+
+.bio-card{
+    background-color: bisque;
+    color: #b57777;
+    width: 200px;
+    align-items: center;
+    margin-left: 80px;
+}
+
+.bio-card i{
+    color: #b57777;
+}
+
+.header{
+    background-color: #b57777;
+    color: antiquewhite;
+}
+
+.footer{
+    background-color: #b57777;
+    color:antiquewhite;
+}
+
 .self-img{
     width: 25%;
     float: left;
@@ -98,6 +125,10 @@
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+
+.boxes i{
+    color:rgb(150, 80, 78);
 }
 
 .containers {
@@ -138,12 +169,19 @@
 
 .resume-showcase button{
     margin-bottom: 50px;
+    background-color:rgb(122, 54, 66);
+    color: #ebd0d0;
+}
+
+.resume-showcase h2{
+    color: #b57777;
 }
 
 .section-contact{
     height: 2000px;
     background-color: bisque;
     margin-left: 120px;
+    color:rgb(107, 73, 76);
 }
 
 
@@ -152,7 +190,7 @@
 }
 
 .section-contact h1{
-    color: rgb(197, 109, 131);
+    color: rgb(122, 54, 66);
     font-weight: 600;
     margin-bottom: 0px;
 }
@@ -219,11 +257,12 @@
     margin-left: 120px;
     background-color: bisque;
     height: 500px;
+    color: #b57777;
 }
 
 .current-projects hr{
     border-width: 3px;
-    border-color: rgb(150, 80, 78);
+    border-color: rgb(122, 54, 66);
     width: 700px;
     margin-top: 0;
     margin-bottom: 0;
@@ -241,11 +280,12 @@
     height: 800px;
     background-color: #f7cccc;
     margin-left: 120px;
+    color: #b57777;
 }
 
 .completed-works hr{
     border-width: 3px;
-    border-color: rgb(150, 80, 78);
+    border-color: rgb(122, 54, 66);
     width: 700px;
     margin-top: 0;
     margin-bottom: 0;
