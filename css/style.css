@@ -2,6 +2,7 @@
     font-size:17px;
 }
 
+
 .sidebar{
     width: 120px;
     background-color: #bc9d90;
@@ -22,13 +23,14 @@
 
 .showcase{
     background-color: bisque;
-    height: 700px;
+    height: 900px;
 }
 
 .showcase h1{
     font-size: 40px;
     font-weight: 700;
     text-transform: uppercase;
+    padding-top: 50px;
     color: rgb(107, 73, 76);
 }
 
@@ -62,16 +64,15 @@
 }
 
 .bio-body{
-    background-color: bisque;
+    background-color: #ebd0d0;
     color: rgb(107, 73, 76);
 }
 
 .bio-card{
-    background-color: bisque;
+    background-color: #ebd0d0;
     color: #b57777;
     width: 200px;
     align-items: center;
-    margin-left: 80px;
 }
 
 .bio-card i{
@@ -256,7 +257,7 @@
 .current-projects{
     margin-left: 120px;
     background-color: bisque;
-    height: 500px;
+    height: 600px;
     color: #b57777;
 }
 
@@ -274,6 +275,18 @@
 
 .current-projects p{
     margin-top: 10px;
+}
+
+.column{
+    float: left;
+    padding: 5px;
+    width: 25%;
+}
+
+.current-projects::after{
+    display: table;
+    clear: both; 
+    content: "";
 }
 
 .completed-works{
@@ -299,15 +312,14 @@
     margin-top: 10px;
 }
 
+.completed-works::after{
+    display: table;
+    clear: both; 
+    content: "";
+}
 
-
-@media  only screen and (max-width:600px){
-    body{
-
-    }
-
-    .showcase{
-
-    }
-
+.column2{
+    float: left;
+    padding: 5px;
+    width: 33.33%;
 }
